@@ -1,0 +1,472 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+
+*,
+html{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.search-app{
+    width: 100%;
+    height: 100vh;
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.search-wrapper{
+    width: 1140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    gap: 45px;
+}
+
+
+
+.logo img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.form-wrapper{
+    margin-top: 15px;
+}
+.search-header{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 12px;
+}
+form input {
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid #002457;
+    padding-left: 16px;
+    font-size: 18px;
+  }
+.form-control:focus {
+    border-color: #002457;
+    outline: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 1px #002457;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 1px #002457;
+}
+button{
+  display: block;
+  margin: 0 auto;
+  padding: 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-top: 12px;
+  width: 160px;
+  background-color: #002457;
+  color: white;
+  font-weight: bold;
+}
+.hints span{
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+.footer-text a{
+    color: #002457;
+    font-weight: 500;
+    text-decoration: none;
+}
+#custom-alert {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    color: red;
+  }
+.custom-alert-message {
+    font-size: 16px;
+}
+.logo {
+    width: 320px;
+    margin: 0 auto;
+  }
+.about {
+  border: 1px solid #002457;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #002457;
+  width: 160px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+
+  .about-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 24px;
+  }
+  .a-t,
+  .a-t2  {
+    padding-bottom: 12px;
+    font-size: 32px;
+  }
+  .desc {
+    font-size: 16px;
+    padding-bottom: 24px;
+  }
+
+
+
+.contact-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-form {
+  flex-basis: 50%;
+  flex-grow: 1;
+  padding: 110px 8% 156px 8%;
+  display: flex;
+  align-items: center;
+}
+.contact-banner {
+  flex-basis: 50%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222140;
+}
+.form-body h1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.form-body p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form {
+  width: 100%;
+  display: flex;
+  margin-top: 48px;
+  flex-direction: column;
+  gap: 25px;
+}
+.form-controller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.form-controller .form-group {
+  flex-basis: 45%;
+  flex-shrink: 0;
+}
+.form-group label {
+  display: block;
+  color: #222140;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.form-group input,
+.form-group textarea {
+  border-radius: 8px;
+  border: 1px solid #D9D9D9;
+  background: #FFF;
+  width: 100%;
+  height: 48px;
+  flex-shrink: 0;
+  color: #A9A9A9;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 15px;
+}
+.form-group textarea {
+    min-height: 150px;
+    padding-top: 10px;
+}
+:focus{
+    outline: none;
+}
+.captcha-varification {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.submit-form {
+  border-radius: 8px;
+  background: #222140;
+  width: 100%;
+  border: 0;
+  color: #FF8201;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 48px;
+  cursor: pointer;
+}
+.captcha {
+  width: 183px;
+  height: 41px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #DCDCDC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #4a4a4a;
+}
+.captcha-input input {
+  height: 41px;
+  flex-shrink: 0;
+  color: #A9A9A9;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 173px;
+  border-radius: 8px;
+  border: 1px solid #C0C0C0;
+  background: #FFF;
+  padding-left: 15px;
+}
+.captcha-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.qee-action {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+  margin-top: 20px;
+}
+.qee-action a {
+  display: block;
+}
+
+.captcha-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.go-back {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.example {
+  font-size: 13px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1668px){
+    .contact-form {
+      padding: 110px 4% 156px 4%;
+    }
+    .form-controller {
+      gap: 47px !important;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .contact-form {
+      padding: 80px 4% 100px 4%;
+    }
+    .form-controller {
+      gap: 0 !important;
+    }
+    .form-controller .form-group {
+      flex-basis: 47%;
+      flex-shrink: 0;
+    }
+    .contact-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: scale-down;
+    }
+    .contact-img {
+      max-width: 350px;
+    }
+}
+
+  @media screen and (max-width: 1200px) {
+    .about-wrapper {
+        padding-left: 24px;
+        padding-right: 20px;
+      }
+    .search-wrapper{
+        width: 920px;
+    }
+  }
+  
+@media screen and (max-width: 1024px){
+    .form-body h1 {
+      font-size: 32px;
+    }
+    .form-body p {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    .form {
+      margin-top: 32px;
+      gap: 14px;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .captcha {
+        width: 130px;
+    }
+    .captcha-input input{
+        width: 140px;
+    }
+     .contact-img {
+      max-width: 260px;
+  }
+  .form-group textarea {
+      min-height: 112px;
+    }
+    .search-wrapper{
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .contact-wrapper {
+      flex-direction: column-reverse !important;
+    }
+    .contact-form {
+      flex-basis: 100%;
+    }
+    .contact-banner {
+      flex-basis: 100%;
+    }
+    .search-wrapper{
+        width: 520px;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .search-wrapper{
+        width: 420px;
+    }
+    .hints span{
+        font-size: 14px;
+    }
+    .custom-alert-message{
+        font-size: 14px;
+    }
+    .logo {
+    width: 260px;
+    margin: 0 auto;
+  }
+  .logo svg {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
+     .logo svg {
+    object-fit: contain;
+  }
+  .a-t,
+  .a-t2  {
+    padding-bottom: 10px;
+    font-size: 24px;
+  }
+  .desc {
+    font-size: 15px;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .search-wrapper{
+      width: 320px;
+      padding: 0 20px;
+    }
+ .search-header {
+    font-size: 16px !important;
+  }
+    .logo {
+    width: 220px !important;
+  }
+  .qee-action {
+  gap: 15px !important;
+  margin-top: 0 !important;
+}
+}
+
+
+

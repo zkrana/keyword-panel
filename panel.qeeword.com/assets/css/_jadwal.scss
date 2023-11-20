@@ -1,0 +1,43 @@
+.jadwal-body{
+    padding-bottom: 70px;
+    background-image: url(../images/jadwal/jadwal.jpg) ;
+    background-attachment: fixed;
+    min-height: calc(100vh - 204px);
+    .content-body{
+        width: 100%;
+
+        table{
+            color: #000;
+            text-align: center;
+
+            thead{
+                th{
+                    background-color: #FFE000;
+                }
+            }
+            .flag{
+                margin-top: -2px;
+                width: 26px;
+            }
+            span {
+                font-size: 16px;
+                font-weight: 400;
+              }
+              tbody{
+                tr:nth-child(odd){
+                    background-color: #fff;
+                }
+                tr:nth-child(even){
+                    background-color: #FFE000;
+                }
+                tr{
+                    td {
+                        font-size: 16px;
+                        font-weight: 400;
+                        width: 16%;
+                      }
+                }
+              }
+        }
+    }
+}

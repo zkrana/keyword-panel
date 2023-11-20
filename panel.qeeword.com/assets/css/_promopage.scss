@@ -1,0 +1,136 @@
+.promo-bg{
+    padding-bottom: 70px;
+    background-image: url(../images/promotion/promo.jpg);
+    background-attachment: fixed;
+    min-height: calc(100vh - 204px);
+    .promo-body{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .promo-item{
+            flex: 1 1 50%;
+            padding: 10px;
+            position: relative;
+
+            @media (max-width: 575px) {
+                flex: 1 1 100%;
+            }
+             img{
+                 width: 100%;
+                 object-fit: scale-down;
+             }
+             .button {
+                position: absolute;
+                bottom: 60px;
+                left: 45px;
+                width: 45%;
+                height: 40px;
+                text-align: center;
+                background-color: #FFE000;
+                border-radius: 40px;
+                text-decoration: none;
+                cursor: pointer;
+                @media (max-width: 991px) {
+                    bottom: 30px;
+                    left: 41px;
+                }
+                &:before{
+                    content: "Klik Untuk Info Lebih Lanjut";
+                    height: 50px;
+                    border: 1px solid #fff;
+                    display: block;
+                    border-radius: 40px;
+                    margin-top: -5px;
+                    margin-left: -5px;
+                    width: 104%;
+                    font-size: 16px;
+                    line-height: 50px;
+                    font-weight: bold;
+                    @media (max-width: 1199px) {
+                        font-size: 13px;
+                    }
+                    @media (max-width: 991px) {
+                        width: 106%;
+                        font-size: 11px;
+                        line-height: 50px;
+                    }
+                }
+              }
+        }
+        .user-promo-item{
+            .button {
+                @media (max-width: 991px) {
+                    width: 205px;
+                }
+                @media (max-width: 767px) {
+                    width: 190px;
+                    bottom: 16px;
+                    left: 28px;
+                    height: 35px;
+                }
+                @media (max-width: 575px) {
+                    bottom: 50px;
+                    left: 40px;
+                }
+                @media (max-width: 480px) {
+                    bottom:30px;
+                    left: 30px;
+                }
+                @media (max-width: 400px) {
+                    width: 175px;
+                    bottom:18px;
+                }
+                &:before{
+                    @media (max-width: 991px) {
+                        width: 215px;
+                        font-size: 11px;
+                        line-height: 50px;
+                    }
+                    @media (max-width: 767px) {
+                        width: 200px;
+                        height: 45px;
+                        line-height: 44px;
+                    }
+                    @media (max-width: 400px) {
+                        width: 185px;
+                    }
+                }
+              }
+        }
+
+    }
+}
+//  .modal.show .modal-dialog {
+//     display: block;
+//    }
+//   .modal-dialog {
+//     margin: 0 auto;
+//   }
+  .extend-width{
+    max-width: 740px;
+  }
+  .modal-content{
+    background-color: #FFE000;
+    padding: 10px;
+    // transform: translateY(60%);
+  }
+  .position{
+    
+    .modal-body{
+        p{
+            img{
+                width: 100%;
+                object-fit: scale-down;
+                height: auto;
+            }
+        }
+    }
+  }
+  // .position2{
+  //   transform: translateY(30%);
+
+  // }
+  .modal-header{
+    border-bottom: none;
+  }

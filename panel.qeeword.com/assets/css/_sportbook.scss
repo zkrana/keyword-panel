@@ -1,0 +1,40 @@
+// Hero Section
+.sportbook-body{
+    min-height: calc(100vh - 204px);
+    background-image: url(../images/Sportbook/sprt-bg.jpg);
+    background-attachment: fixed;
+    position: relative;
+    padding-bottom: 80px;
+
+    .game-layer {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+
+      .game-item{
+        width: 25%;
+        cursor: pointer;
+        @media (max-width: 991px) {
+          width: 33.3333%;
+        }
+        @media (max-width: 767px) {
+          width: 50%;
+        }
+        @media (max-width: 480px) {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+
+        .game-thumbnail{
+          width: 100%;
+          object-fit: contain;
+          &:hover{
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+
+}

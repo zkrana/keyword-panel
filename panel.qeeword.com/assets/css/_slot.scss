@@ -1,0 +1,119 @@
+// Hero Section
+.slot-body{
+    background-image: url(../images/slot/slot.jpg);
+    background-attachment: fixed;
+    min-height: calc(100vh - 204px);
+}
+.search {
+    margin: 15px 0;
+    display: flex;
+    justify-content: end;
+  }
+  .icon-input {
+    position: relative;
+    right: 49px;
+    @media (max-width: 425px) {
+        left: 1%;
+    }
+
+    #myInput {
+        min-height: 35px;
+        border-radius: 8px;
+        border: none;
+        padding-left: 30px;
+        @media (max-width: 450px) {
+            width: 100%;
+        }
+      }
+      .icon-input__icon {
+        position: absolute;
+        top: 5px;
+        left: 2px;
+      }
+    
+  }
+  .tab-container{
+    .hidden {
+        display: none;
+      }
+
+      .tabs {
+        padding: 15px 0;
+        display: flex;
+        height: 90px;
+        width: 91.5%;
+        margin-left: 49px;
+        @media (max-width: 450px) {
+            margin-left: 20px;
+        }
+
+        .tab {
+            width: 50%;
+            height: 100%;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+            @media (max-width: 550px) {
+                font-size: 13px;
+            }
+            @media (max-width: 414px) {
+                font-size: 12px;
+            }
+          }
+          .active {
+            opacity: 1;
+            background-color: #ffc107;
+          }
+          .non-active {
+            border: none;
+            background-color: #000;
+            color: #fff;
+          }
+      }
+    .tab-content{
+        .game-wrapper {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            .game-item {
+                width: 200px;
+                @media (max-width: 480px) {
+                    width: 160px;
+                }
+                @media (max-width: 380px) {
+                    width: 120px;
+                }
+                .game-img {
+                    width: 100%;
+                  }
+                .game-title {
+                    background: #ffe000;
+                    padding: 5px 0;
+                    border-radius: 0 0 5px 5px;
+                    font-size: 14px;
+                    text-align: center;
+                    height: 50px;
+                    margin: 0;
+                    text-transform: capitalize;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+              }
+          }
+    }
+}
+@media (max-width: 1200px) {
+    .scroll{
+        overflow-x: scroll;
+      }
+      .x-overflow{
+        width: 930px !important;
+      }
+}
+
+.height-fix-body{
+  min-height: calc(100vh - 100px) !important;
+}

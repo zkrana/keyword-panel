@@ -1,0 +1,11 @@
+.panduan-body{
+    padding-bottom: 70px;
+    background-image: url(../images/Panduan/panduan.jpg);
+    background-attachment: fixed;
+    min-height: calc(100vh - 204px);
+    img{
+        @media (max-width: 1199px) {
+            width: 100%;
+        }
+    }
+}

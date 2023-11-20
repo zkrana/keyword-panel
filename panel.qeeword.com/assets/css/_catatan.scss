@@ -1,0 +1,89 @@
+.catatan-content{
+    .nav-link{
+        color: #595959;
+        padding: .5rem 0;
+        margin: 0 1rem;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+        border-bottom: 2px solid #090908;
+        border-radius: 0;
+        color: #090908;
+        background-color: transparent;
+    }
+    .custom-select{
+        background: #DDDDDD 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        border: none;
+        padding: 10px 15px;
+        font-weight: 500;
+        font-size: 16px;
+        width:100%;
+    }
+
+    .ajukan-btn{
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background: transparent linear-gradient(180deg, #FFCC00 0%, #514700 100%) 0% 0% no-repeat padding-box;
+        border-radius: 8px;
+        font-size: 20px;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .info-text{
+        margin-top: 20px;
+        height: 60px;
+        line-height: 60px;
+        background: #FFE000 0% 0% no-repeat padding-box;
+        padding:0 20px;
+        border-radius: 4px;
+        span{
+            font: normal normal medium 17px/26px Poppins;
+            color: #090908;
+            opacity: 1;
+        }
+    }
+
+    .catatan-details{
+        padding: 0 15px;
+        table{
+            width: 100%;
+            tbody{
+                tr{
+                    td{
+                        text-align: right;
+                        padding: 10px 0;
+                        .semua{
+                            background: transparent linear-gradient(180deg, #FFCC00 0%, #514700 100%) 0% 0% no-repeat padding-box;
+                            border-radius: 8px;
+                            border: none;
+                            color: #fff;
+                            font-weight: 500;
+                            padding: 10px 30px;
+                        }
+                    }
+                }
+                .bg-color{
+                    background: #FFE000 0% 0% no-repeat padding-box;
+                    border-radius: 4px;
+                }
+            }
+            .date{
+                background: #DDDDDD 0% 0% no-repeat padding-box;
+                border-radius: 8px;
+                border: none;
+                padding: 7px 15px;
+                margin-left: 5px;
+            }
+        }
+        .catatan-semua{
+            margin-left: 20px;
+            @media (max-width: 1099px) {
+                margin-top: 22px;
+            }
+                
+        }
+    }
+}

@@ -1,0 +1,153 @@
+.partner-section{
+    background-color: #000;
+    background-image: url('../images/partner_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 60px 0 60px;
+    min-height: calc(100vh - 204px);
+    @media (max-width:1500px) {
+        background-position: 50% 100%;
+    }
+    @media (max-width:1199px) {
+        padding: 35px 0 60px;
+    }
+    @media (max-width:991px) {
+        background-size: cover;
+    }
+    @media (max-width:767px) {
+        background-image: url('../images/bg/mdOurPartnerBG.png');
+    }
+    @media (max-width:575px) {
+        background-color: #000;
+        // background-image: none;
+        padding: 35px 0 60px;
+    }
+    
+    img{
+        @media (min-width: 992px) and (max-width: 1199px){
+            width:100%;
+        }
+        @media (max-width:767px) {
+            width:100%;
+        }
+    }
+    
+    .section-title{
+        margin-bottom: 30px;
+    }
+    .section-subtitle{
+        margin-bottom: 80px;
+        @media (min-width: 992px) and (max-width: 1199px){
+            margin-bottom: 65px;
+        }
+        @media (max-width:991px) {
+            margin-bottom: 50px;
+        }
+    }
+    .disini-btn{
+        width: 548px;
+        height: 52px;
+        border-top: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        @media (min-width: 992px) and (max-width: 1199px){
+            width:100%;
+        }
+        @media (max-width:575px) {
+            width:100%;
+        }
+       
+        .daftar{
+            width: 260px;
+            height: 60px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: #08100E;
+            background: #FFE000 0% 0% no-repeat padding-box;
+            border-radius: 40px;
+            text-transform: uppercase;
+            &:before {
+                content: "DAFTAR DISINI";
+                width: 276px;
+                height: 74px;
+                background: transparent;
+                display: flex;
+                margin-top: -7px;
+                margin-left: -8px;
+                border: 2px solid #fff;
+                border-radius: 42px;
+                text-align: center;
+                line-height: 70px;
+                padding: 0 45px;
+              }
+        }
+        .disini{
+            margin-left: 35px;
+            width: 260px;
+            height: 60px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: #08100E;
+            background: #FFE000 0% 0% no-repeat padding-box;
+            border-radius: 40px;
+            text-transform: uppercase;
+            @media (max-width: 480px) {
+                margin-left: 0;
+            }
+            &:before {
+                content: "DAFTAR DISINI";
+                width: 276px;
+                height: 74px;
+                background: transparent;
+                display: flex;
+                margin-top: -7px;
+                margin-left: -8px;
+                border: 2px solid #fff;
+                border-radius: 42px;
+                text-align: center;
+                line-height: 70px;
+                padding: 0 45px;
+              }
+        }
+    }
+    .user-partner{
+        .daftar{
+            @media (max-width: 480px) {
+                width: 215px;
+                height: 45px;
+            }
+            &:before {
+                @media (max-width: 480px) {
+                    width: 230px;
+                    height: 60px;
+                    line-height: 58px;
+                }
+
+              }
+        }
+        .disini{
+            @media (max-width: 480px) {
+                width: 215px;
+                height: 45px;
+            }
+            &:before {
+                @media (max-width: 480px) {
+                    width: 230px;
+                    height: 60px;
+                    line-height: 58px;
+                }
+
+              }
+        }
+    }
+}
+
+.article{
+    p{
+        text-align: justify;
+    }
+}

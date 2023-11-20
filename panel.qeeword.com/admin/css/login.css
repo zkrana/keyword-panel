@@ -1,0 +1,328 @@
+/* 
+::::::::::::::::::::::::::::::::::::::::::::::
+Login Page 
+::::::::::::::::::::::::::::::::::::::::::::::
+*/
+/* Pen Title */
+
+
+/* Error Handaling Code */
+.error {
+  padding: 10px;
+   display: block;
+   margin: 10px auto;
+   font-size: 19px;
+   color: red;
+   text-align: center;
+}
+
+.forget a:hover {
+   color: #ffe039;
+}
+.forget a {
+   color: #ddd;
+   text-decoration: none;
+}
+.forget {
+   text-align: center;
+   padding-top: 30px;
+   /* color: #ddd !important; */
+   display: block;
+   margin: 0 auto;
+}
+
+.pen-title {
+ padding: 50px 0;
+ text-align: center;
+ letter-spacing: 2px;
+}
+.pen-title h1 {
+ margin: 0 0 20px;
+ font-size: 48px;
+ font-weight: 300;
+}
+.pen-title span {
+ font-size: 12px;
+}
+.pen-title span .fa {
+ color: #ed2553;
+}
+.pen-title span a {
+ color: #ed2553;
+ font-weight: 600;
+ text-decoration: none;
+}
+
+/* Rerun */
+.rerun {
+ margin: 0 0 30px;
+ text-align: center;
+}
+.rerun a {
+ cursor: pointer;
+ display: inline-block;
+ background: #ffe039;
+ border-radius: 3px;
+ -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+ padding: 20px 20px;
+ color: #ffffff;
+ text-decoration: none;
+ -webkit-transition: 0.3s ease;
+ -o-transition: 0.3s ease;
+ transition: 0.3s ease;
+}
+.rerun a:hover {
+ -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/* Container */
+.container {
+ position: relative;
+ max-width: 460px;
+ width: 100%;
+ margin: 0 auto 100px;
+}
+
+
+ body{
+   padding: 0;
+   margin: 0;
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
+   font-family: 'Inter', sans-serif;
+ }
+
+ .login-wrapper {
+   width: 100%;
+   height: 100vh;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+ }
+
+.logo {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -ms-flex-preferred-size: 50%;
+     flex-basis: 50%;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+     -ms-flex-flow: column;
+         flex-flow: column;
+ height: 100%;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+}
+.login {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+ height: 100%;
+ background: #222240;
+ -ms-flex-preferred-size: 60%;
+     flex-basis: 60%;
+}
+
+.card {
+ position: relative;
+ border-radius: 5px;
+}
+
+
+.card .title {
+ color: #FFF;
+ text-align: center;
+ font-size: 48px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ margin: 0;
+ padding: 0;
+ margin-bottom: 35px;
+}
+.card .input-container label {
+ display: block;
+ color: #FFF;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+.card .input-container input {
+ outline: none;
+ border-radius: 8px;
+ background: #D9D9D9;
+ width: 460px;
+ height: 48px;
+ display: block;
+ border: 0;
+ margin-top: 6px;
+ padding-left: 12px;
+ font-size: 18px;
+ font-weight: 500;
+}
+
+button {
+ width: 460px;
+ height: 52px;
+ display: block;
+ margin: 0 auto;
+ border-radius: 8px;
+ background: #FF8200;
+ border: 0;
+ color: #FFF;
+ text-align: center;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ cursor: pointer;
+}
+.forget  span{
+ color: #FFF;
+ font-size: 14px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+.forget a {
+ color: #FF8200;
+ -webkit-text-decoration-line: underline;
+         text-decoration-line: underline;
+}
+
+.cehck-container label {
+ color: #7B7B7B;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+.cehck-container {
+ width: 100%;
+ margin-bottom: 31px;
+}
+.cehck-container input {
+ border-radius: 5px;
+ border: 1px solid #7B7B7B;
+}
+.card .input-container {
+ position: relative;
+ margin: 0 0 27px;
+}
+.logo-desc{
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+}
+.logo-mb{
+ display: none;
+}
+
+@media screen and (max-width: 991px) {
+ form {
+   width: 100%;
+ }
+ .card .input-container input {
+   width: calc(100% - 15px);
+ }
+ .form-wrapper {
+   width: 100%;
+   padding: 0 35px;
+ }
+ button {
+   width: 100%;
+ }
+ .logo svg {
+   width: 100%;
+ }
+ .logo {
+   padding: 0 35px;
+ }
+}
+
+@media screen and (max-width: 767px) {
+ .logo-desc{
+   display: none;
+ }
+ .logo-mb {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   height: 100px;
+   -ms-flex-preferred-size: unset;
+       flex-basis: unset;
+   margin-bottom: 25px;
+   background: white;
+   padding: 10px;
+   border-radius: 4px;
+   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+ }
+ .login {
+   -ms-flex-preferred-size: 100%;
+       flex-basis: 100%;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   padding: 0 20%;
+ }
+ .card .title {
+   font-size: 32px;
+ }
+ .form-wrapper {
+   width: 100%;
+   padding: 0;
+   margin-top: 40px;
+ }
+}
+
+@media screen and (max-width: 650px) {
+ .login {
+   padding: 0 15%;
+ }
+ .logo-mb {
+   height: 70px;
+ }
+}
+
+@media screen and (max-width: 575px) {
+ .login {
+   padding: 0 10%;
+ }
+ .logo-mb {
+   height: 52px;
+   width: 73%;
+ }
+}
+
+@media screen and (max-width: 480px) {
+ .login {
+   padding: 0 5%;
+ }
+ .card .input-container label {
+   font-size: 16px;
+ }
+}

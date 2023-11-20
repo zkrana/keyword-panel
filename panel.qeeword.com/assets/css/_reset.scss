@@ -1,0 +1,413 @@
+// html,
+body {
+  font-family: 'Poppins', sans-serif;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  outline: 0;
+  overflow-x: hidden;
+  background-color: #000;
+}
+
+.navbar {
+  position: static;
+  padding: 0;
+}
+
+a {
+  color: #303030;
+  -webkit-transition: 0.15s ease-in-out;
+  -o-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
+}
+
+a:hover,
+a:link,
+a:visited,
+a:active {
+  color: #303030;
+  text-decoration: none;
+}
+
+a:active,
+a:focus,
+a:visited,
+button:active,
+button:focus,
+button:visited {
+  outline: 0;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+}
+
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.input-group-append {
+  margin-left: 0px;
+}
+
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 400;
+  color: #303030;
+}
+
+.form-control {
+  background-color: #EFEFEF;
+  border: 1px solid transparent;
+  color: #303030;
+  width: 100%;
+  font-size: 16px;
+  height: 37px;
+  padding: 0 13px;
+  border-radius: 4px;
+  outline: 0;
+  border: 1px solid #FFFFFF;
+}
+
+.form-control:focus {
+  background-color: #fff;
+  border: 1px solid #08f;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+.default-btn:focus,
+a:link:focus {
+  outline: 0;
+}
+
+.btn.focus,
+.btn:focus,
+.form-control:focus,
+.form-control-input:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+::-webkit-input-placeholder {
+  color: #000;
+}
+
+::-moz-placeholder {
+  color: #000;
+
+}
+
+::-ms-input-placeholder {
+  color: #000;
+}
+
+::placeholder {
+  color: #000;
+}
+
+@media (min-width:1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container {
+  padding: 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #FFD500;
+}
+
+@include mobile {
+  .section-title {
+    font-size: 24px;
+  }
+
+}
+
+@include ipad {
+  .section-title {
+    font-size: 40px;
+  }
+}
+
+@include tablet {
+  .section-title {
+    font-size: 48px;
+  }
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+@include mobile {
+  .section-subtitle {
+    font-size: 14px;
+  }
+
+}
+
+@include ipad {
+  .section-subtitle {
+    font-size: 16px;
+  }
+}
+
+@include tablet {
+  .section-subtitle {
+    font-size: 20px;
+  }
+}
+
+@include tablet {
+  .col-lg-20 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+@media (max-width:575px) {
+  .container {
+    max-width: 86%;
+  }
+}
+
+@media (max-width:480px) {
+  .container {
+    max-width: 88%;
+  }
+}
+
+
+// animation 
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+
+  50% {
+    -webkit-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+
+  100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+
+  50% {
+    -webkit-transform: translatey(-20px);
+    transform: translatey(-20px);
+  }
+
+  100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+//Other Page Content
+.article_header {
+  color: #ffcc00;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 10px 0;
+
+  @include mobile {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  @include ipad {
+    font-size: 25px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .img-res {
+    width: 100%;
+  }
+}
+
+.footer_copy {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 40px 0;
+  // position: absolute;
+  // bottom: 0;
+  // right: 0;
+  // left: 0;
+
+  @media (max-width: 450px) {
+    font-size: 13px;
+  }
+}
+
+
+/* Mobile menu nav modal content another class */
+
+.ptransform {
+  transform: translateY(0) !important;
+}
+
+.marquee {
+  display: block;
+
+  .marquee-logo {
+    align-items: center;
+  }
+
+  .marquee-text {
+    width: calc(100% - 40px);
+
+    @media (max-width: 480px) {
+      margin-top: 5px;
+    }
+
+    .marqueeHome {
+      font-size: 18px;
+      font-family: 'Poppins';
+      font-weight: 400;
+      text-align: left;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+
+      @media (max-width: 480px) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+.number-h{
+  min-height: calc(100vh - 204px);
+}
+.wspace{
+  white-space: nowrap;
+}
+.icons {
+  .ri-arrow-left-s-line{
+    &:before{
+        background: aliceblue;
+        border-radius: 30px;
+        padding: 5px;
+    }
+  }
+  .ri-arrow-right-s-line{
+    &:before{
+      background: aliceblue;
+      border-radius: 30px;
+      padding: 5px;
+  }
+  }
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #e8e8e8 transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track,
+  .custom-scrollbar::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb,
+  .custom-scrollbar::-webkit-scrollbar-thumb:vertical {
+  border-radius: 2px;
+  background: #e8e8e8;
+}
+.posAbsolute{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

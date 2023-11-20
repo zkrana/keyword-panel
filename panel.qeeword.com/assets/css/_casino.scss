@@ -1,0 +1,40 @@
+// Hero Section
+.casino-body{
+    min-height: calc(100vh - 100px);
+    background-image: url(../images/Casino/casino-bg.jpg);
+    background-attachment: fixed;
+    padding-bottom: 70px;
+    position: relative;
+    
+    .game-layer {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+
+      .game-item{
+        width: 25%;
+        cursor: pointer;
+        @media (max-width: 991px) {
+          width: 33.3333%;
+        }
+        @media (max-width: 767px) {
+          width: 50%;
+        }
+        @media (max-width: 480px) {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+
+        .game-thumbnail{
+          width: 100%;
+          object-fit: contain;
+          &:hover{
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+
+}

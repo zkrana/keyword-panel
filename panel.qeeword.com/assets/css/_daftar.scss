@@ -1,0 +1,27 @@
+.panduan-daftar{
+  background-image: url(../images/Panduan/panduan2.jpg);
+  background-attachment: fixed;
+    padding-bottom: 40px;
+    min-height: calc(100vh - 204px);
+    .content{
+        color: #fff;
+        text-align: justify;
+        
+        img{
+          @media (max-width: 991px) {
+            width: 100%;
+          }
+        }
+        h2{
+          @media (max-width: 480px) {
+            font-size: 18px
+          }
+        }
+        .text-center {
+            color: #FFE000;
+          }
+          b{
+            color: #FFE000;
+          }
+    }
+}

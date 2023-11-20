@@ -1,0 +1,272 @@
+
+
+.footer_wrapper {
+    background-image: url('../images/footer_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+
+    @media (max-width:767px) {
+        background-image: url("../images/bg/mdFooterBG.png");
+        background-position: bottom;
+    }
+    @media (max-width:575px) {
+        background-position: bottom;
+        background-size: cover;
+    }
+    .footer-title {
+        font-size: 30px;
+        font-weight: 600;
+        color: #090908;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        @media (max-width:991px) {
+            font-size: 24px;
+        }
+        @media (max-width:767px) {
+            font-size: 18px;
+        }
+        
+    }
+    .gradient-bg{
+        position: relative;
+        z-index: 1;
+        width: 380px;
+        height: 50px;
+        background: transparent linear-gradient(270deg, #FFE00000 0%, #FFE000 50%, #FFE000 100%) 0% 0% no-repeat padding-box;
+    }
+
+    @media(max-width:400px){
+        .gradient-bg{
+            width: 270px;
+        }
+    }
+
+    .round{
+        height: 65px;
+        background: white;
+        width: 65px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 55px;
+        border: 5px solid black;
+        margin-left: 15px;
+        margin-right: 8px;
+        img{
+            width: 32px;
+            // padding-left: 4px;
+        }
+    }
+    .custom-hr{
+        position: relative;
+        z-index: 9;
+        width: 100%;
+        height: 2px;
+        background: white;
+        margin-top: 2.5px;
+    }
+    .footer_custom-item-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+
+        .footer_custom-item {
+            text-align: center;
+            width: 11.6%;
+            margin-right: 1%;
+            margin-bottom: 1%;
+    
+            @media(max-width:479px) {
+                width: 32.6%;
+                &:nth-child(3n){
+                    margin-right: 0;
+                }
+            }
+
+            @media (min-width:480px)and (max-width:767px) {
+                width: 19.2%;
+                &:nth-child(5n){
+                    margin-right: 0;
+                }
+            }
+            
+            @include ipad {
+                width: 11.6%;
+                margin-right: 1%;
+                margin-bottom: 1%;
+             
+            }
+            &:nth-child(8n){
+                @include ipad {
+                    margin-right: 0;    
+                }
+            }
+            @include macbook {
+                margin-bottom: 1.5%;
+            }
+            img {
+                @media (max-width: 1199px){
+                    width: 100%;
+                }
+            }
+        }
+    }
+ 
+
+
+     .footer {
+        height: 80px;
+        text-align: center;
+        color: #fff;
+        border-top: 2px solid #ffffff;
+        padding: 35px 0 60px;
+        margin-top: 35px;
+       
+        @media (max-width:575px) {
+            padding: 25px 0;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 19px;
+            color: #fff;
+            font-weight: 400;
+            letter-spacing: -0.4px;
+            @media (max-width:991px) {
+                font-size: 18px;
+            }
+            @media (max-width:767px) {
+                font-size: 15px;
+            }
+            @media (max-width:575px) {
+                font-size: 14px;
+            }
+        }
+        @include mobile-sm {
+            font-size: 1rem;
+        }
+    }
+}
+
+.scroll-top {
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+}
+.scroll-top.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+.scrollToTop {
+    width: 45px;
+    height: 45px;
+    line-height: 43px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background: #FFD500;
+}
+
+.scrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    cursor: pointer;
+    z-index: 9999;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.scrollToTop span {
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    z-index: 0;
+}
+
+.scrollToTop span {
+    font-size: 20px;
+}
+
+
+
+// iframe slider css 
+.iframeCustomSlider{
+
+    @media (max-width:575px) {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .content-box{
+        background: #1A1A1A 0% 0% no-repeat padding-box;
+        margin-left: 10px;
+        margin-right:10px;
+        @media (max-width:574px) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+            
+        .head-title{
+            font-size: 18px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+        }
+        .team-vs{
+            h4{
+                font-size:15px;
+                letter-spacing: 0px;
+                color: #FFE000;
+            }
+        }
+        .date{
+            font-size:15px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.bankStatusSlider{
+    margin-top: 20px;
+    .content-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        .content-item{
+            border: 1px solid #DDDDDD;
+            width: 32%;
+            border-radius: 4%;
+            padding: 4px;
+            margin-bottom: 1%;
+            margin-right: 1%;
+            @media (max-width: 575px) {
+                width: 49%;
+              }
+            img{
+                width: 100%;
+            }
+            p{
+                font-size: 17px;
+                color: #13AB13;
+                text-transform: uppercase;
+                margin-top: -8px;
+                font-weight: 600;
+                @media (max-width: 991px) {
+                    font-size: 14px;
+                    margin-top: -9px;
+                  }
+            }
+          
+        }
+    }
+}
+.footer {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    color: #fff;
+    @media (max-width: 450px) {
+        font-size: 13px;
+    }
+  }

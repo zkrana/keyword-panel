@@ -1,0 +1,220 @@
+[17-Oct-2023 08:49:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lewat88/public_html/index.php:22) in /home/lewat88/public_html/index.php on line 132
+[17-Oct-2023 08:49:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lewat88/public_html/index.php:22) in /home/lewat88/public_html/index.php on line 132
+[17-Oct-2023 08:50:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lewat88/public_html/index.php:22) in /home/lewat88/public_html/index.php on line 130
+[17-Oct-2023 08:53:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lewat88/public_html/index.php:27) in /home/lewat88/public_html/index.php on line 135
+[17-Oct-2023 08:56:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lewat88/public_html/index.php:27) in /home/lewat88/public_html/index.php on line 135
+[17-Oct-2023 08:56:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lewat88/public_html/index.php:27) in /home/lewat88/public_html/index.php on line 134
+[17-Oct-2023 08:58:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lewat88/public_html/index.php:122) in /home/lewat88/public_html/index.php on line 136
+[18-Oct-2023 20:59:04 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 104
+[18-Oct-2023 20:59:06 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 104
+[19-Oct-2023 10:00:04 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[19-Oct-2023 10:00:04 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 104
+[20-Oct-2023 07:18:05 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 126
+[22-Oct-2023 16:35:18 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[22-Oct-2023 20:51:35 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[22-Oct-2023 20:51:37 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[22-Oct-2023 20:51:51 UTC] PHP Warning:  Unknown: POST Content-Length of 10485761 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[22-Oct-2023 20:51:51 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[23-Oct-2023 21:33:55 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[25-Oct-2023 10:43:26 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[25-Oct-2023 11:25:15 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[25-Oct-2023 15:24:45 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[25-Oct-2023 17:29:41 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[25-Oct-2023 17:32:03 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[25-Oct-2023 18:03:39 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[26-Oct-2023 13:30:12 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[26-Oct-2023 14:25:54 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[26-Oct-2023 14:25:58 UTC] PHP Notice:  Undefined index: searchInput in /home/lewat88/public_html/index.php on line 12
+[28-Oct-2023 02:52:12 UTC] PHP Notice:  Undefined index: searchInput in /home/qeeword/public_html/index.php on line 12
+[28-Oct-2023 04:48:40 UTC] PHP Notice:  Undefined index: searchInput in /home/qeeword/public_html/index.php on line 12
+[28-Oct-2023 20:38:08 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 12
+[28-Oct-2023 20:38:08 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 12
+[29-Oct-2023 10:54:59 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 12
+[29-Oct-2023 10:54:59 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 12
+[29-Oct-2023 21:06:53 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 12
+[29-Oct-2023 21:06:53 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 12
+[29-Oct-2023 21:06:55 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 12
+[29-Oct-2023 21:06:55 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 12
+[29-Oct-2023 21:07:09 UTC] PHP Warning:  Unknown: POST Content-Length of 10485761 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[29-Oct-2023 21:07:09 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 12
+[29-Oct-2023 21:07:09 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 12
+[30-Oct-2023 07:31:35 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[30-Oct-2023 07:31:35 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[30-Oct-2023 14:14:15 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[30-Oct-2023 14:14:15 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[01-Nov-2023 13:44:37 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[01-Nov-2023 13:44:37 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[01-Nov-2023 15:59:16 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[01-Nov-2023 15:59:16 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[01-Nov-2023 19:27:40 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[01-Nov-2023 19:27:40 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[02-Nov-2023 05:03:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateCaptchaCode() in /home/qeeword/public_html/contact.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 9
+[02-Nov-2023 05:03:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateCaptchaCode() in /home/qeeword/public_html/contact.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 9
+[02-Nov-2023 05:04:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateCaptchaCode() in /home/qeeword/public_html/contact.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 9
+[02-Nov-2023 05:04:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateCaptchaCode() in /home/qeeword/public_html/contact.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 9
+[02-Nov-2023 05:05:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateCaptchaCode() in /home/qeeword/public_html/contact.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 9
+[02-Nov-2023 05:05:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function generateCaptchaCode() in /home/qeeword/public_html/contact.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 9
+[02-Nov-2023 05:15:09 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 97
+[02-Nov-2023 05:15:12 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 27
+[02-Nov-2023 05:15:12 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 97
+[02-Nov-2023 05:15:18 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 27
+[02-Nov-2023 05:15:18 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 97
+[02-Nov-2023 05:15:20 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 97
+[02-Nov-2023 05:15:25 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 97
+[02-Nov-2023 05:41:28 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 112
+[02-Nov-2023 05:44:07 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 107
+[02-Nov-2023 05:44:11 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 107
+[02-Nov-2023 05:44:19 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 107
+[02-Nov-2023 05:44:20 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 107
+[02-Nov-2023 05:44:34 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 114
+[02-Nov-2023 05:44:49 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 112
+[02-Nov-2023 05:45:12 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 112
+[02-Nov-2023 05:45:19 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 112
+[02-Nov-2023 05:46:05 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 112
+[02-Nov-2023 05:47:44 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 112
+[02-Nov-2023 05:47:47 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 112
+[02-Nov-2023 05:47:50 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 112
+[02-Nov-2023 05:48:32 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 117
+[02-Nov-2023 05:48:35 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 117
+[02-Nov-2023 05:48:41 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 117
+[02-Nov-2023 05:48:48 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 117
+[02-Nov-2023 05:49:39 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 117
+[02-Nov-2023 05:49:44 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 117
+[02-Nov-2023 05:49:51 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 117
+[02-Nov-2023 05:53:03 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 118
+[02-Nov-2023 05:53:05 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 118
+[02-Nov-2023 05:53:07 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 118
+[02-Nov-2023 05:53:12 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 118
+[02-Nov-2023 05:53:22 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 118
+[02-Nov-2023 06:00:13 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/qeeword/public_html/captcha.php on line 13
+[02-Nov-2023 06:00:26 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/qeeword/public_html/captcha.php on line 13
+[02-Nov-2023 06:01:14 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 122
+[02-Nov-2023 06:01:26 UTC] PHP Warning:  Undefined variable $captcha in /home/qeeword/public_html/contact.php on line 122
+[03-Nov-2023 02:35:19 UTC] PHP Parse error:  Unclosed '{' on line 20 in /home/qeeword/public_html/contact.php on line 201
+[03-Nov-2023 02:35:21 UTC] PHP Parse error:  Unclosed '{' on line 20 in /home/qeeword/public_html/contact.php on line 201
+[03-Nov-2023 03:22:28 UTC] PHP Warning:  require(phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home/qeeword/public_html/contact.php on line 5
+[03-Nov-2023 03:22:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/qeeword/public_html/contact.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 5
+[03-Nov-2023 03:22:31 UTC] PHP Warning:  require(phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home/qeeword/public_html/contact.php on line 5
+[03-Nov-2023 03:22:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/qeeword/public_html/contact.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 5
+[03-Nov-2023 03:35:29 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home/qeeword/public_html/contact.php on line 7
+[03-Nov-2023 03:35:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/qeeword/public_html/contact.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 7
+[03-Nov-2023 03:58:46 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home/qeeword/public_html/contact.php on line 7
+[03-Nov-2023 03:58:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/qeeword/public_html/contact.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 7
+[03-Nov-2023 03:58:50 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home/qeeword/public_html/contact.php on line 7
+[03-Nov-2023 03:58:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/qeeword/public_html/contact.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 7
+[03-Nov-2023 04:01:14 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home/qeeword/public_html/contact.php on line 6
+[03-Nov-2023 04:01:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/qeeword/public_html/contact.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 6
+[03-Nov-2023 04:01:47 UTC] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home/qeeword/public_html/contact.php on line 8
+[03-Nov-2023 04:01:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/qeeword/public_html/contact.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/contact.php on line 8
+[03-Nov-2023 04:55:19 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[03-Nov-2023 04:55:19 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[04-Nov-2023 09:21:08 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[04-Nov-2023 09:21:08 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[04-Nov-2023 15:27:36 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[04-Nov-2023 15:27:36 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[04-Nov-2023 15:27:42 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[04-Nov-2023 15:27:42 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[05-Nov-2023 05:40:42 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[05-Nov-2023 05:40:42 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[06-Nov-2023 22:34:34 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[06-Nov-2023 22:34:34 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[07-Nov-2023 01:33:23 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[07-Nov-2023 01:33:23 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[07-Nov-2023 12:06:08 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[07-Nov-2023 12:06:08 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[07-Nov-2023 15:38:57 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[07-Nov-2023 15:38:57 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[07-Nov-2023 22:40:57 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[07-Nov-2023 22:40:57 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[08-Nov-2023 06:45:14 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 35
+[08-Nov-2023 06:45:14 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 35
+[09-Nov-2023 15:37:03 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 33
+[09-Nov-2023 15:37:03 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 33
+[10-Nov-2023 17:53:12 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 33
+[10-Nov-2023 17:53:12 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 33
+[11-Nov-2023 02:16:47 UTC] PHP Warning:  Undefined variable $keywordMappings in /home/qeeword/public_html/index.php on line 24
+[11-Nov-2023 02:16:47 UTC] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home/qeeword/public_html/index.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/index.php on line 24
+[11-Nov-2023 02:17:50 UTC] PHP Warning:  Undefined variable $keywordMappings in /home/qeeword/public_html/index.php on line 26
+[11-Nov-2023 02:17:50 UTC] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in /home/qeeword/public_html/index.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/qeeword/public_html/index.php on line 26
+[11-Nov-2023 08:27:53 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 31
+[11-Nov-2023 08:27:53 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 31
+[12-Nov-2023 20:19:04 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 31
+[12-Nov-2023 20:19:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 31
+[12-Nov-2023 20:19:06 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 31
+[12-Nov-2023 20:19:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 31
+[12-Nov-2023 20:19:19 UTC] PHP Warning:  Unknown: POST Content-Length of 10485761 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[12-Nov-2023 20:19:19 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 31
+[12-Nov-2023 20:19:19 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 31
+[12-Nov-2023 23:18:05 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 31
+[12-Nov-2023 23:18:05 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 31
+[13-Nov-2023 08:19:25 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/index.php on line 31
+[13-Nov-2023 08:19:25 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/index.php on line 31
+[16-Nov-2023 03:51:26 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[16-Nov-2023 03:51:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[16-Nov-2023 15:42:35 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[16-Nov-2023 15:42:35 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[16-Nov-2023 18:14:06 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[16-Nov-2023 18:14:06 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[16-Nov-2023 22:40:26 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[16-Nov-2023 22:40:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[17-Nov-2023 15:37:36 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[17-Nov-2023 15:37:36 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[17-Nov-2023 17:36:19 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[17-Nov-2023 17:36:19 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[18-Nov-2023 08:54:16 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[18-Nov-2023 08:54:16 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[18-Nov-2023 09:40:26 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[18-Nov-2023 09:40:26 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[18-Nov-2023 09:40:32 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[18-Nov-2023 09:40:32 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[19-Nov-2023 02:31:58 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[19-Nov-2023 02:31:58 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[19-Nov-2023 20:26:38 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[19-Nov-2023 20:26:38 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
+[19-Nov-2023 21:19:59 UTC] PHP Warning:  Undefined array key "searchInput" in /home/qeeword/public_html/login.php on line 31
+[19-Nov-2023 21:19:59 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/qeeword/public_html/login.php on line 31
